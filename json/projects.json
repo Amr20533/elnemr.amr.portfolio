@@ -1,0 +1,368 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Covid-19 App",
+      "description": "Covid-19 App UI",
+      "demo_url": "https://www.youtube.com/shorts/LCbabvxn1WU",
+      "source_code": "https://github.com/Amr20533/covid_19_app_ui",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/covid_19_app.png",
+      "created_at": "2024-12-14"
+    },
+    
+    {
+      "id": 31,
+      "name": "Sneakers Shop App",
+      "description": "Sneakers Shop App",
+      "demo_url": "https://youtu.be/nHt3tXshAfA?si=4_fctDrbPEc6gM9c",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/sneakers_app.png",
+      "created_at": "2024-12-17"
+    },
+    {
+      "id": 2,
+      "name": "Cinema Tickets Booking App",
+      "description": "It's implemented to provide a seamless and efficient way to book movie tickets. This app is built using 𝗙𝗹𝘂𝘁𝘁𝗲𝗿 and 𝗗𝗷𝗮𝗻𝗴𝗼 for the backend, and a host of features aimed at delivering the best movie experience right at your fingertips. Whether you’re browsing showtimes or securing tickets, this app brings convenience to the forefront.\r\n\r\nKey Features:\r\n\r\n✅ 𝗩𝗶𝗲𝘄 𝗠𝗼𝘃𝗶𝗲𝘀:\r\nBrowse through a wide selection of movies, including currently playing \r\n      films, upcoming releases, and showtimes. All the movie details you need \r\n      are easily accessible.\r\n\r\n✅ 𝗔𝗱𝗱 𝘁𝗼 𝗕𝗼𝗼𝗸𝗺𝗮𝗿𝗸𝘀:\r\nSave your favorite movies to your bookmarks for quick and easy access \r\n      later. This feature makes it simple to revisit movies you want to check out \r\n      in the future.\r\n\r\n✅ 𝗕𝗼𝗼𝗸𝗶𝗻𝗴 𝗧𝗶𝗰𝗸𝗲𝘁𝘀:\r\nThe app makes booking tickets fast and easy. Choose a movie, select a \r\n      showtime, pick your seats, and complete the booking process with just a \r\n      few taps.\r\n\r\n✅ 𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻:\r\nThe app supports secure payment methods, allowing users to book    tickets effortlessly and securely.\r\n\r\n✅ 𝗦𝗵𝗼𝘄𝘁𝗶𝗺𝗲𝘀 & 𝗦𝗲𝗮𝘁 𝗦𝗲𝗹𝗲𝗰𝘁𝗶𝗼𝗻:\r\nCheck out available showtimes and select seats according to your \r\n      preference, whether it's for a solo movie date, a cozy couple’s night, or a \r\n      group outing.",
+      "demo_url": "https://youtu.be/B5nI6ol1j2I?si=th5yxaayfFNUZ-J4",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/cinema_app.png",
+      "created_at": "2024-12-17"
+    },
+    {
+      "id": 3,
+      "name": "CORHEMA",
+      "description": "An innovative project that bridges the gap between patients and doctors, offering seamless communication across Android and Desktop platforms. \r\n\r\nOur solution simplifies healthcare interactions with minimal effort, ensuring an efficient user experience.\r\n\r\nKey Features:\r\n\r\nReal-Time Appointment Scheduling: Book and manage appointments effortlessly.\r\n\r\nAlzheimer's Disease Detection: AI-powered system for early detection of Alzheimer's disease.\r\n\r\nElectronic Prescriptions: Streamline the prescription process digitally.\r\n\r\nOnline Consultation: Consult with doctors from the comfort of your home.\r\n\r\nSecure Payment Integration: Safe and reliable payment methods for medical services.\r\n\r\nDoctor & Hospital Reviews: Share your experiences to help others make informed decisions.\r\n\r\nFavorites: Easily access your preferred doctors and hospitals for future visits.\r\n\r\nTechnologies Used: Figma for UI/UX design GetX for state management Flutter & Dart for cross-platform development Node.js, Express, MongoDB for backend development Paymob for secure payment integration GetStorage & Shared Preferences for local storage Local Notifications for appointment and reminder alerts.\r\n\r\nCNN (Convolutional Neural Networks) for Alzheimer’s Disease detection through deep learning\r\n\r\nA big thank you to my friends and teammates for their amazing collaboration and support throughout this journey!",
+      "demo_url": "https://youtu.be/Na85amYYbBY?si=__7-3Yykd87YViCG",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/logo.gif",
+      "created_at": "2024-12-17"
+    },
+    {
+      "id": 4,
+      "name": "Animated Social Media App UI",
+      "description": "Animated Social Media App User Interface",
+      "demo_url": "https://youtube.com/shorts/991APj-LcPE?si=U_zJ-2jrkP52LOvS",
+      "source_code": "",
+      "perview": "",
+      "category": "designed",
+      "image": "images/projects/social_media.png",
+      "created_at": "2024-12-17"
+    },
+    {
+      "id": 5,
+      "name": "Quran App UI",
+      "description": "Quran App UI",
+      "demo_url": "https://www.youtube.com/shorts/8IH-PjAARVY",
+      "source_code": "https://github.com/Amr20533/Quran-App-UI",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/quran_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 6,
+      "name": "Tickets Booking App",
+      "description": "Excited to introduce our Ticket Booking App!\r\n\r\nIt allows users to effortlessly book flights and hotel rooms, review options, and save their favorite hotels for easy future access.\r\n\r\nBuilt using Node.js, Flutter, and Dart, it provides a seamless experience with:\r\n\r\nFlight Bookings\r\nHotel Room Reservations\r\nFlight and Hotel Reviews\r\nFavorites for Hotels (for easy future access)\r\n\r\nKey features include:\r\n\r\nState Management using Provider\r\nLocalization for a personalized user experience\r\nPush Notifications to keep users updated\r\nSecure Payment Integration for hassle-free transactions\r\n\r\nOur app aims to make your travel planning easier and more enjoyable with its intuitive interface and powerful features.",
+      "demo_url": "https://youtu.be/n0HnTEzVry0?si=UUdms15opRpwg3uj",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/tickets_booking.jpg",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 7,
+      "name": "Task Reminder App",
+      "description": "developed using GetX and GetStorage, offers streamlined task\r\nmanagement experience. Users can easily add tasks, set reminders, and receive\r\nnotifications upon task completion. The app utilizes GetStorage for efficient local data\r\nstorage, allowing users to archive and manage their tasks seamlessly. With GetX, tasks can\r\nbe categorized into lists, modified, canceled, or deleted with intuitive user interactions,\r\nensuring a smooth and responsive user experience.",
+      "demo_url": "https://youtu.be/AXXfGn3Xg5A?si=oq28tFCOXdUGLNvF",
+      "source_code": "https://github.com/Amr20533/Task-Reminder",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/task_reminder.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 8,
+      "name": "E-Commerce App",
+      "description": "is designed to enhance your shopping experience. Users can shop for\r\na wide range of products, add items to their favorites, archive products for future reference,\r\nand browse through an extensive catalog effortlessly. Enjoy a seamless and convenient\r\nshopping journey with our intuitive app.",
+      "demo_url": "https://youtu.be/XJYCKq7IFM8?si=RoXdoBFd1_HORywc",
+      "source_code": "''",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/e_commerce.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 9,
+      "name": "Todo App",
+      "description": "helps users efficiently manage their tasks with support for both light and\r\ndark themes. Users can list tasks for future completion, receive notifications when tasks\r\nare done, and add completed tasks to a done list. Additionally, tasks can be archived for\r\nfuture reference. The app is built using SQFlite, ensuring reliable and efficient data storage\r\nand management.",
+      "demo_url": "https://youtu.be/AXXfGn3Xg5A?si=sB4jwCCsP33DYHzp",
+      "source_code": "https://github.com/Amr20533/todo_app/tree/master",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/todo_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 10,
+      "name": "English Vocab App UI",
+      "description": "English Vocab App UI",
+      "demo_url": "https://www.youtube.com/shorts/UpyKFiPmrPA",
+      "source_code": "https://github.com/Amr20533/english_vocab_app_ui",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/english_vocab.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 11,
+      "name": "Animated Scooter App UI",
+      "description": "Animated Scooter App UI",
+      "demo_url": "https://www.youtube.com/shorts/uUdptIuFTEk",
+      "source_code": "https://github.com/Amr20533/scooter_app_ui_kit",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/scooter.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 12,
+      "name": "Animated Vase App UI",
+      "description": "Animated Vase App UI",
+      "demo_url": "https://www.youtube.com/shorts/r13-KAKuR2E",
+      "source_code": "https://github.com/Amr20533/animated_flower_vase_app_ui",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/vase_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 13,
+      "name": "Restaurant App",
+      "description": "Restaurant App",
+      "demo_url": "https://youtu.be/QGtmVsjJvMc?si=lv94XuO9fDLKV-fw",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/restaurant_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 14,
+      "name": "News App",
+      "description": "News App",
+      "demo_url": "https://youtu.be/uLFeg_YU4fU?si=MLJPR-O63iCrNrrr",
+      "source_code": "https://github.com/Amr20533/news_app",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/news_app_thumbnail.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 15,
+      "name": "E-Learning App",
+      "description": "E-Learning App",
+      "demo_url": "https://youtu.be/gxjBTVlLOYs?si=X4bA9Su55bWASFGo",
+      "source_code": "https://github.com/Amr20533/Focus-Flow/tree/master",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/E_learning_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 16,
+      "name": "Cinema Tickets Booking API",
+      "description": "Cinema Tickets Booking API",
+      "demo_url": "https://youtu.be/JddQDFlH4HU?si=W7KxQ7zw3hFbTL2F",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/cinema_api.jpg",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 17,
+      "name": "Daily Exercise App UI",
+      "description": "Daily Exercise App UI",
+      "demo_url": "https://www.youtube.com/shorts/HrTeH4usQYE",
+      "source_code": "https://github.com/Amr20533/daily_exercise_app_ui_kit",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/daily_exercise.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 18,
+      "name": "Shop App UI",
+      "description": "Shop App UI",
+      "demo_url": "https://www.youtube.com/shorts/Ezfr0SkWFzE",
+      "source_code": "''",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/shop_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 19,
+      "name": "Food App",
+      "description": "Food App",
+      "demo_url": "https://www.youtube.com/shorts/cDXysWvSJ6U",
+      "source_code": "''",
+      "perview": "''",
+      "category": "coded",
+      "image": "images/projects/food_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 20,
+      "name": "Reading Book App UI",
+      "description": "Reading Book App UI",
+      "demo_url": "''https://www.youtube.com/shorts/_6lH268hyX4",
+      "source_code": "https://github.com/Amr20533/Ultimate-Online-Reading-Book-UI-kit",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/e_book.jpg",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 21,
+      "name": "Tasky App",
+      "description": "Tasky App",
+      "demo_url": "https://youtu.be/KX_Z-6vFOFo?si=uoi3wblNoUgwg-pG",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "",
+      "category": "coded",
+      "image": "images/projects/tasky_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 22,
+      "name": "Moafa App",
+      "description": "Moafa App",
+      "demo_url": "https://youtu.be/czrzAqDSInI?si=MVNVudqA6Yfigaq6",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "",
+      "category": "coded",
+      "image": "images/projects/moafa.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 23,
+      "name": "Fitness App UI Kit",
+      "description": "Fitness App UI Kit",
+      "demo_url": "https://youtu.be/czrzAqDSInI?si=MVNVudqA6Yfigaq6",
+      "source_code": "https://github.com/Amr20533/Fitness-App_UI-Kit.git",
+      "perview": "",
+      "category": "designed",
+      "image": "images/projects/fitness_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 24,
+      "name": "Health Monitoring App",
+      "description": "Health Monitoring App",
+      "demo_url": "https://youtu.be/_5qnshLibU4?si=WY3sysTjqGMh9gxS",
+      "source_code": "https://github.com/Amr20533/",
+      "perview": "",
+      "category": "coded",
+      "image": "images/projects/health_monitoring.jpg",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 25,
+      "name": "Image Classification App",
+      "description": "Image Classification App",
+      "demo_url": "https://youtube.com/shorts/-uKakvndX2Q?si=CpmqL0qUoK-VlWLA",
+      "source_code": "https://github.com/Amr20533/",
+      "perview": "",
+      "category": "coded",
+      "image": "images/projects/image_classification_app.jpg",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 26,
+      "name": "3d Headphone Store App",
+      "description": "3d Animated Headphone Store App",
+      "demo_url": "https://youtube.com/shorts/qEW6JYAuxNM?si=fB027Bp_ua61vBRZ",
+      "source_code": "https://github.com/Amr20533/",
+      "perview": "",
+      "category": "designed",
+      "image": "images/projects/rocker_z.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 27,
+      "name": "Watch-Store_3d_App-UI",
+      "description": "The 3D Watch Store app UI offers an immersive shopping experience, allowing users to view watches in stunning 3D. Users can customize their selection by exploring various colors and sizes, ensuring a perfect fit for their style. Intuitive navigation and interactive features make it easy to compare options and visualize their ideal watch before purchase.",
+      "demo_url": "https://youtube.com/shorts/rglmrCvVIBo?si=nQyOd1LAX4FM7Mp4",
+      "source_code": "https://github.com/Amr20533/Watch-Store_3d_App-UI.git",
+      "perview": "",
+      "category": "designed",
+      "image": "images/projects/watch_store.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 28,
+      "name": "Calorie Tracker-App UI",
+      "description": "The Animated Calorie Tracker app UI blends functionality with engaging visuals, making calorie tracking enjoyable. With a dynamic and interactive food in/out tracker, animated progress tracking, and customizable goals, it empowers users to manage their nutrition effectively. Its smooth animations and intuitive layout enhance the overall experience.",
+      "demo_url": "https://youtube.com/shorts/GdNFyIQQVw0?si=_0ulibaa7PkzznuZ",
+      "source_code": "https://github.com/Amr20533/Calorie-Tracker-App-3D-UI.git",
+      "perview": "",
+      "category": "designed",
+      "image": "images/projects/Calorie_tracker.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 29,
+      "name": "Animated 3d Model View App",
+      "description": "Animated 3d Model View App",
+      "demo_url": "https://youtube.com/shorts/LRgd6ljTXHQ?si=qF759gYyrlz5F6sx",
+      "source_code": "https://github.com/Amr20533/Animated_3d_model_view_app.git",
+      "perview": "",
+      "category": "designed",
+      "image": "images/projects/animated_char.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 30,
+      "name": "Restaurant App API",
+      "description": "Restaurant App API",
+      "demo_url": "https://www.youtube.com/@amrelnemr584/videos",
+      "source_code": "https://github.com/Amr20533/",
+      "perview": "",
+      "category": "coded",
+      "image": "images/projects/restaurant_api.jpg",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 32,
+      "name": "Plant App UI",
+      "description": "Plant App UI",
+      "demo_url": "https://www.youtube.com/@amrelnemr584/videos",
+      "source_code": "https://github.com/Amr20533/plant-app-ui.git",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/plant_app.png",
+      "created_at": "2025-01-01"
+    },
+    {
+      "id": 33,
+      "name": "Furniture App UI",
+      "description": "Plant App UI",
+      "demo_url": "https://www.youtube.com/@amrelnemr584/videos",
+      "source_code": "https://github.com/Amr20533/ultimate_furniture_app_ui_kit.git",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/furniture_app.jpg",
+      "created_at": "2025-01-01"
+    }
+  ]
+}

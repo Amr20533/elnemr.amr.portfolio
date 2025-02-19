@@ -1,27 +1,446 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<<<<<<< HEAD
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
 
-=======
->>>>>>> d9360e6cb68edfd1f7d9ab2388d111b328994d49
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="elnemr_portolio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!--Bootstrap ================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <!--vendor css ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
 
-  <title>elnemr_portolio</title>
-  <link rel="manifest" href="manifest.json">
+    <!-- Style Sheet ================================================== -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google Fonts ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="facebook" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 16 16">
+            <path fill="currentColor"
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518a3.3 3.3 0 0 0 1.447-1.817a6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429a3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218a3.2 3.2 0 0 1-.865.115a3 3 0 0 1-.614-.057a3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M13.028 2c1.125.003 1.696.009 2.189.023l.194.007c.224.008.445.018.712.03c1.064.05 1.79.218 2.427.465c.66.254 1.216.598 1.772 1.153a4.9 4.9 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.012.266.022.487.03.712l.006.194c.015.492.021 1.063.023 2.188l.001.746v1.31a79 79 0 0 1-.023 2.188l-.006.194c-.008.225-.018.446-.03.712c-.05 1.065-.22 1.79-.466 2.428a4.9 4.9 0 0 1-1.153 1.772a4.9 4.9 0 0 1-1.772 1.153c-.637.247-1.363.415-2.427.465l-.712.03l-.194.006c-.493.014-1.064.021-2.189.023l-.746.001h-1.309a78 78 0 0 1-2.189-.023l-.194-.006a63 63 0 0 1-.712-.031c-1.064-.05-1.79-.218-2.428-.465a4.9 4.9 0 0 1-1.771-1.153a4.9 4.9 0 0 1-1.154-1.772c-.247-.637-.415-1.363-.465-2.428l-.03-.712l-.005-.194A79 79 0 0 1 2 13.028v-2.056a79 79 0 0 1 .022-2.188l.007-.194c.008-.225.018-.446.03-.712c.05-1.065.218-1.79.465-2.428A4.9 4.9 0 0 1 3.68 3.678a4.9 4.9 0 0 1 1.77-1.153c.638-.247 1.363-.415 2.428-.465c.266-.012.488-.022.712-.03l.194-.006a79 79 0 0 1 2.188-.023zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0 2a3 3 0 1 1 .001 6a3 3 0 0 1 0-6m5.25-3.5a1.25 1.25 0 0 0 0 2.5a1.25 1.25 0 0 0 0-2.5" />
+        </symbol>
+        <symbol id="pinterest" viewBox="0 0 24 24">
+            <g fill="none">
+                <path
+                    d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                <path fill="currentColor"
+                    d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12c0 4.006 2.356 7.462 5.758 9.058l2.29-10.766a1 1 0 0 1 1.956.416C11.73 12 11.49 12.5 11.501 13.1c.017.94.273 1.442.521 1.702c.253.265.618.408 1.095.4c.487-.01 1.038-.181 1.526-.489C15.592 14.117 16 13.095 16 12a4 4 0 1 0-7.668 1.6a1 1 0 0 1-1.832.8a6 6 0 1 1 11 0c-.368.848-1.04 1.534-1.792 2.007c-.755.475-1.657.779-2.555.795c-.819.015-1.672-.212-2.359-.808L9.66 21.726c.75.18 1.534.275 2.339.275Z" />
+            </g>
+        </symbol>
+        <symbol id="youtube" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73" />
+        </symbol>
+        <symbol id="paintbrush" viewBox="0 0 16 16">
+            <path fill="currentColor"
+                d="m5.6 11.6l-1.2-1.2c-.8-.2-2-.1-2.7 1c-.8 1.1-.3 2.8-1.7 4.6c0 0 3.5 0 4.8-1.3c1.2-1.2 1.2-2.2 1-3zm.2-3.5c-.2.3-.5.7-.7 1c0 .2-.1.3-.2.4L6.4 11c.1-.1.3-.2.4-.3c.3-.2.7-.4 1-.7c.4 0 .6-.2.8-.4L6.4 7.4c-.2.2-.4.4-.6.7m10-7.9c-.3-.3-.7-.3-1-.1c0 0-3 2.5-5.9 5.1c-.4.4-.7.7-1.1 1c-.2.2-.4.4-.6.5l2.1 2.1c.2-.2.4-.4.5-.7c.3-.4.6-.7.9-1.1c2.5-3 5.1-5.9 5.1-5.9c.3-.2.3-.6 0-.9" />
+        </symbol>
+        <symbol id="t-shirt" viewBox="0 0 20 20">
+            <g fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="m2.668 10.009l1.166-.583V16.5a2.5 2.5 0 0 0 2.5 2.5h7.335a2.5 2.5 0 0 0 2.5-2.5V9.425l1.166.581a.5.5 0 0 0 .71-.338l.945-4.236a.5.5 0 0 0-.135-.463l-2.248-2.24A2.5 2.5 0 0 0 14.842 2h-2.007a.5.5 0 0 0-.493.415c-.287 1.658-1.04 2.409-2.342 2.409c-1.3 0-2.054-.751-2.34-2.409A.5.5 0 0 0 7.167 2H5.161a2.5 2.5 0 0 0-1.766.73L1.15 4.97a.5.5 0 0 0-.135.462l.943 4.238a.5.5 0 0 0 .711.338M5.161 3h1.598C7.195 4.84 8.297 5.824 10 5.824S12.806 4.84 13.243 3h1.6a1.5 1.5 0 0 1 1.058.437l2.053 2.046l-.745 3.343l-1.317-.656a.5.5 0 0 0-.723.448V16.5a1.5 1.5 0 0 1-1.5 1.5H6.334a1.5 1.5 0 0 1-1.5-1.5V8.618a.5.5 0 0 0-.724-.448l-1.316.658l-.744-3.345l2.051-2.045A1.5 1.5 0 0 1 5.161 3"
+                    clip-rule="evenodd" />
+                <path d="M12 10.5a.5.5 0 0 1 0-1h2a.5.5 0 0 1 0 1z" />
+            </g>
+        </symbol>
+        <symbol id="box" viewBox="0 0 24 24">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
+                d="m15.578 3.382l2 1.05c2.151 1.129 3.227 1.693 3.825 2.708C22 8.154 22 9.417 22 11.942v.117c0 2.524 0 3.787-.597 4.801c-.598 1.015-1.674 1.58-3.825 2.709l-2 1.049C13.822 21.539 12.944 22 12 22s-1.822-.46-3.578-1.382l-2-1.05c-2.151-1.129-3.227-1.693-3.825-2.708C2 15.846 2 14.583 2 12.06v-.117c0-2.525 0-3.788.597-4.802c.598-1.015 1.674-1.58 3.825-2.708l2-1.05C10.178 2.461 11.056 2 12 2s1.822.46 3.578 1.382ZM21 7.5l-4 2M12 12L3 7.5m9 4.5v9.5m0-9.5l4.5-2.25l.5-.25m0 0V13m0-3.5l-9.5-5" />
+        </symbol>
+        <symbol id="arrow-left" viewBox="0 0 256 256">
+            <path fill="currentColor"
+                d="M220 128a4 4 0 0 1-4 4H49.66l65.17 65.17a4 4 0 0 1-5.66 5.66l-72-72a4 4 0 0 1 0-5.66l72-72a4 4 0 0 1 5.66 5.66L49.66 124H216a4 4 0 0 1 4 4" />
+        </symbol>
+        <symbol id="arrow-right" viewBox="0 0 256 256">
+            <path fill="currentColor"
+                d="m218.83 130.83l-72 72a4 4 0 0 1-5.66-5.66L206.34 132H40a4 4 0 0 1 0-8h166.34l-65.17-65.17a4 4 0 0 1 5.66-5.66l72 72a4 4 0 0 1 0 5.66" />
+        </symbol>
+        <symbol id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+            <path fill="currentColor"
+                d="M19 3C13.488 3 9 7.488 9 13c0 2.395.84 4.59 2.25 6.313L3.281 27.28l1.439 1.44l7.968-7.969A9.922 9.922 0 0 0 19 23c5.512 0 10-4.488 10-10S24.512 3 19 3zm0 2c4.43 0 8 3.57 8 8s-3.57 8-8 8s-8-3.57-8-8s3.57-8 8-8z" />
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 16 16">
+            <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+        </symbol>
+    </svg>
+
+    <div class="preloader text-white fs-6 text-uppercase overflow-hidden"></div>
+
+
+
+    <nav id="header-nav" class="navbar navbar-expand-lg container-fluid bg-white bg-opacity-50 py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-center align-items-center justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link pe-lg-5" aria-current="page" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-lg-5" href="#hire">Hire Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-lg-5" href="#offer">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-lg-5" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-lg-5" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <section id="hero" class="padding-large jarallax" >
+        <div class="container" data-aos="fade-up">
+            <div class="row text-start">
+                <div class="col-lg-5">
+                    <p>
+                        Flutter Developer | Django Developer | AI Enthusiast
+                    </p>
+                    <h2 class="display-1 fw-bold">
+                        Hello I'm <span class="text-primary">Amr Elnemr</span>
+                    </h2>
+                    <p>
+                        With over three years of experience in developing Flutter applications, I have immersed myself in the latest advancements, consistently integrating sleek animations, dynamic UI components, and cutting-edge features to enhance user experiences. Throughout my career, I have worked on a diverse range of projects, employing state management solutions such as GetX, Bloc, and Provider to ensure efficient app architecture and seamless user interactions.
+
+                        Beyond UI development, I have extensive experience with local storage solutions, including GetStorage, SharedPreferences, Hive, and SQFlite, enabling me to build apps with efficient offline capabilities and persistent data storage. I am also highly skilled in integrating REST APIs and Firebase services, including Firebase Authentication, Firestore, and Firebase Cloud Storage, to develop robust and scalable mobile applications.
+                        
+                        In addition to my mobile development expertise, I have over a year of experience in backend development using Django and Django REST Framework (DRF). This has allowed me to design and implement scalable, high-performance APIs, ensuring seamless communication between frontend and backend systems. My backend work includes database design, authentication systems, API optimization, and security enhancements, all tailored to support modern web and mobile applications.
+                        
+                        Beyond app development, I have a strong passion for Deep Learning and AI. I have worked with various machine learning algorithms and am currently focused on mastering Transformer models to build advanced AI-driven applications. My deep interest in artificial intelligence complements my expertise in app development, enabling me to explore innovative solutions that push the boundaries of what’s possible.
+                        
+                        I am deeply committed to continuous learning and always eager to explore new technologies, frameworks, and best practices to enhance my skills. Whether it’s staying updated on Flutter’s latest features, refining backend architectures, or diving deeper into AI research, I thrive on challenges that allow me to grow as a developer and deliver impactful solutions.
+                        <br>
+                                            <a href="https://www.linkedin.com/in/amr-elnemr-094b8a30a/" class="btn btn-outline-dark rounded-pill mt-4" target="_blank">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img src="images/prof_1.jpeg" alt="banner" class="jarallax-img">
+        <!-- <img src="images/hero-img.jpg" alt="banner" class="jarallax-img"> -->
+
+    </section>
+
+    <section id="hire">
+        <div class="container padding-medium">
+            <div class="row flex-row-reverse">
+                <div class="offset-lg-1 col-lg-6" data-aos="fade-left">
+                    <h3 class="display-5 fw-bold">
+                        My Skills
+                    </h3>
+                    <div id="progressbar-tooltip-id" class="progressbar-tooltip pt-4">
+
+                        <h6>Flutter</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="90"
+                            data-title=""></div>
+                        <h6>Dart</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="95"
+                            data-title=""></div>
+                        <h6>Python</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="80"
+                            data-title=""></div>
+                        <h6>Django</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="75"
+                            data-title=""></div>
+                        <h6>SQL</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="85"
+                            data-title=""></div>    
+                        <h6>Git</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="55"
+                            data-title=""></div>    
+                        <h6>Tensor Flow</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="65"
+                            data-title=""></div>
+                        <h6>GetX</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="90"
+                            data-title=""></div>
+                        <h6>Bloc</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="80"
+                            data-title=""></div>
+                        <h6>Provider</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="90"
+                            data-title=""></div>
+                        <h6>Firebase</h6>
+                        <div class="ab-progress progress-tooltip" data-progress data-tooltip="true" data-value="85"
+                            data-title=""></div>
+
+    
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-5 mt-lg-0" data-aos="fade-right">
+                    <h3 class="display-5 fw-bold">
+                        Why Hire Me ?
+                    </h3>
+                    <p class="pt-4">
+                        With over 3 years of experience in building Flutter applications, I’ve fully embraced the latest features and advancements, incorporating sleek animations and cutting-edge updates to deliver exceptional user experiences. Throughout my career, I’ve developed a wide range of projects, leveraging state management solutions such as GetX, Bloc, and Provider. I’m also proficient in using local storage solutions like GetStorage, SharedPreferences, Hive, and SQFlite, and have extensive experience integrating REST APIs and Firebase storage into mobile apps. Additionally, I bring more than a year of expertise in Django API development, where I’ve built scalable, high-performance backends using Django and Django REST Framework (DRF). 
+
+                    </p>
+                    <p>
+                        This experience has allowed me to design robust APIs that serve modern web and mobile applications seamlessly. I am passionate about developing with Flutter and Dart, and I also have a strong interest in Deep Learning. Having worked with various machine learning algorithms, I am currently focused on mastering Transformer models to create even more advanced projects. Committed to continuous learning and self-improvement, I’m always eager to explore new technologies and frameworks to push the boundaries of what I can build.                    </p>
+                    <div class="text-start mt-5">
+                        <a href="https://www.linkedin.com/in/amr-elnemr-094b8a30a/" class="btn btn-dark me-4" target="_blank">
+                            Hire Me
+                        </a>
+                        <a href="https://drive.google.com/drive/u/4/folders/1IARGzlp0zIMewvWosxR_ZJojjInBZnH6" class="btn btn-outline-dark">
+                            Download CV
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <svg class="smartphone" width="24" height="24">
+        <symbol id="smartphone" viewBox="0 0 24 24"><path fill="currentColor" d="M16 2H8a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3m1 17a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1h10Zm0-3H7V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1Z"/></symbol>    </svg>
+    
+    <svg class="code" width="24" height="24">
+        <symbol id="code" viewBox="0 0 24 24"><path fill="currentColor" d="m8 18l-6-6l6-6l1.425 1.425l-4.6 4.6L9.4 16.6zm8 0l-1.425-1.425l4.6-4.6L14.6 7.4L16 6l6 6z"/></symbol>    </svg>
+    
+    <svg class="server" width="24" height="24">
+        <symbol id="server" viewBox="0 0 512 512"><ellipse cx="256" cy="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" rx="192" ry="80"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M448 214c0 44.18-86 80-192 80S64 258.18 64 214m384 86c0 44.18-86 80-192 80S64 344.18 64 300"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M64 127.24v257.52C64 428.52 150 464 256 464s192-35.48 192-79.24V127.24"/></symbol>    </svg>
+    
+    <svg class="firebase" width="24" height="24">
+        <symbol id="firebase" viewBox="0 0 15 15"><path fill="currentColor" d="M3.33.03a.5.5 0 0 1 .524.116l2.078 2.08l-.032.056l-3.725 7.706zM2.262 11.94l4.98 2.989a.5.5 0 0 0 .444.035l5-2a.5.5 0 0 0 .31-.52l-1-9a.5.5 0 0 0-.828-.318L9.513 4.597zm6.676-8.184L7.916 2.223a.5.5 0 0 0-.853.034l-.31.558l-2.986 6.177z"/></symbol>    </svg>
+    
+    <svg class="web" width="24" height="24">
+        <symbol id="web" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9 9 0 1 0 0-18m0 18a9 9 0 1 1 0-18m0 18c2.761 0 3.941-5.163 3.941-9S14.761 3 12 3m0 18c-2.761 0-3.941-5.163-3.941-9S9.239 3 12 3M3.5 9h17m-17 6h17"/></symbol>    </svg>
+    
+    <svg class="ui" width="24" height="24">
+        <symbol id="ui" viewBox="0 0 24 24"><g fill="currentColor"><path fill-rule="evenodd" d="M14 6h-4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1m-4-2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3z" clip-rule="evenodd"/><path d="m6 7.46l-2.507-.418A3 3 0 0 0 0 10v4.917a3 3 0 0 0 3.493 2.96L6 17.458v-2.027l-2.836.472A1 1 0 0 1 2 14.918v-4.917a1 1 0 0 1 1.164-.987L6 9.487zm12 0l2.507-.418A3 3 0 0 1 24 10v4.917a3 3 0 0 1-3.493 2.96L18 17.458v-2.027l2.836.472A1 1 0 0 0 22 14.918v-4.917a1 1 0 0 0-1.164-.987L18 9.487z"/></g></symbol>    </svg>
+    
+    <section id="offer" class="position-relative padding-medium" data-aos="fade-up">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 text-center">
+                    <h3 class="display-5 fw-bold">
+                        What I Offer
+                    </h3>
+                    <p class="mb-5">
+                        Things that I can do for my clients. Just make your good trust I love to provide quality works.
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper offer-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide text-center">
+                        <a href="service-details.html">
+                            <div class="offer-item border mb-4 p-5">
+                                <div class="product-item position-relative">
+                                    <svg class="offer-svg paintbrush" width="80" height="80">
+                                        <use xlink:href="#paintbrush"></use>
+                                    </svg>
+                                </div>
+                                <h4 class="mt-4">
+                                    Branding Design
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci eget mi elit cursus
+                                    donec
+                                    amet
+                                    sed sagittis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <a href="service-details.html">
+                            <div class="offer-item border mb-4 p-5">
+                                <div class="product-item position-relative">
+                                    <svg class="offer-svg t-shirt" width="80" height="80">
+                                        <use xlink:href="#t-shirt"></use>
+                                    </svg>
+                                </div>
+                                <h4 class="mt-4">
+                                    T-Shirt Design
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci eget mi elit cursus
+                                    donec
+                                    amet
+                                    sed sagittis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <a href="service-details.html">
+                            <div class="offer-item border mb-4 p-5">
+                                <div class="product-item position-relative">
+                                    <svg class="offer-svg box" width="80" height="80">
+                                        <use xlink:href="#box"></use>
+                                    </svg>
+                                </div>
+                                <h4 class="mt-4">
+                                    Package Design
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci eget mi elit cursus
+                                    donec
+                                    amet
+                                    sed sagittis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <a href="service-details.html">
+                            <div class="offer-item border mb-4 p-5">
+                                <div class="product-item position-relative">
+                                    <svg class="offer-svg paintbrush" width="80" height="80">
+                                        <use xlink:href="#paintbrush"></use>
+                                    </svg>
+                                </div>
+                                <h4 class="mt-4">
+                                    Branding Design
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci eget mi elit cursus
+                                    donec
+                                    amet
+                                    sed sagittis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination position-static mt-4 d-lg-none d-block"></div>
+            </div>
+            <div
+                class="position-absolute top-50 end-0 translate-middle-y me-5 mt-5 pt-5 main-slider-button-next d-lg-block d-none">
+                <svg class="arrow" width="80" height="80">
+                    <use xlink:href="#arrow-right"></use>
+                </svg>
+            </div>
+            <div
+                class="position-absolute top-50 start-0 translate-middle-y ms-5 mt-5 pt-5 main-slider-button-prev d-lg-block d-none">
+                <svg class="arrow" width="80" height="80">
+                    <use xlink:href="#arrow-left"></use>
+                </svg>
+            </div>
+    </section>
+
+    <section id="portfolio" class="padding-medium container-fluid pt-0" data-aos="fade-up">
+        <div class="text-center" id = "portfolio-section">
+            <h3 class="display-5 fw-bold">Portfolio</h3>
+            <div class="my-5">
+                <p>
+                    <button class="filter-button px-3 mb-3 active" data-filter="*">All</button>
+                    <button class="filter-button px-3 mb-3" data-filter=".designed">Designed</button>
+                    <button class="filter-button px-3 mb-3" data-filter=".coded">Coded</button>
+                </p>
+            </div>
+        </div>
+        <div id="portfolio-container" class="row"></div>
+    </section>
+  
+    <section id="contact">
+        <div class="container padding-medium" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h3 class="display-1 fw-bold">
+                        Let’s work together
+                    </h3>
+                    <p>
+                        I’m available for freelance work. Have any projects in your mind? <br>
+                        Just feel free to contact me
+                    </p>
+                </div>
+            </div>
+
+            <ul class="d-flex gap-5 list-unstyled justify-content-center my-3">
+                <li>
+                    <a class="nav-link p-0" href="https://www.linkedin.com/in/amr-elnemr-094b8a30a/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>             
+                    </a>
+                </li>
+                
+             
+
+                <li>
+                    <a class="nav-link p-0" href="https://github.com/Amr20533" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>   
+                </li>
+               
+                
+            </ul>
+
+            <div class="text-center mt-5">
+                <a href="https://www.linkedin.com/in/amr-elnemr-094b8a30a/" class="btn btn-outline-dark rounded-pill me-4" target="_blank">
+                    Contact me
+                </a>
+            </div>
+        </div>
+        <footer class="border-top border-dark-subtle py-4">
+            <div class="container d-md-flex justify-content-between align-items-center mt-3">
+                <p class="mb-0">@contact.amrelnemr@gmail.com</p>
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- script ================================================== -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+
+    <!-- Bootstarp script ================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper script ================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--iconify script ================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 </body>
+
 </html>
