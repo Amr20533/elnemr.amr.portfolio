@@ -2,14 +2,14 @@
   "data": [
     {
       "id": 1,
-      "name": "Covid-19 App",
-      "description": "Covid-19 App UI",
-      "demo_url": "https://www.youtube.com/shorts/LCbabvxn1WU",
-      "source_code": "https://github.com/Amr20533/covid_19_app_ui",
+      "name": "Home IN App",
+      "description": "A Real Estate App",
+      "demo_url": "https://youtu.be/MZsiqbZeTQ4?si=xydGhWfBmaUY3SPj",
+      "source_code": "https://github.com/Amr20533",
       "perview": "''",
-      "category": "designed",
-      "image": "images/projects/covid_19_app.png",
-      "created_at": "2024-12-14"
+      "category": "coded",
+      "image": "images/projects/Real-Estate-App.png",
+      "created_at": "2025-2-22"
     },
     
     {
@@ -363,6 +363,28 @@
       "category": "designed",
       "image": "images/projects/furniture_app.jpg",
       "created_at": "2025-01-01"
+    },
+    {
+      "id": 34,
+      "name": "Covid-19 App",
+      "description": "Covid-19 App UI",
+      "demo_url": "https://www.youtube.com/shorts/LCbabvxn1WU",
+      "source_code": "https://github.com/Amr20533/covid_19_app_ui",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/covid_19_app.png",
+      "created_at": "2024-12-14"
+    },
+    {
+      "id": 35,
+      "name": "Portfolio Website",
+      "description": "Personal Portfolio Website",
+      "demo_url": "https://youtu.be/sIC01uvz2hE?si=1waFzun7qwnj6OKr",
+      "source_code": "https://github.com/Amr20533",
+      "perview": "''",
+      "category": "designed",
+      "image": "images/projects/Portfolio.png",
+      "created_at": "2025-2-14"
     }
   ]
 }
